@@ -27,13 +27,13 @@ How to run CrashFinder?
  - 5. The generated txt file contains location index that CFS gives for LLC locations.
 
 
-**CrashFinder Dynamic
+**CrashFinder Dynamic**
 
  - 1. Go to 'CFD' folder, run 'python driveSmartFi.py input' where 'input' is the name of your benchmark name.
  - 2. The generated txt file contains all static index and their sampled dynamic instance index.
 
 
-**Selective Fault Injection
+**Selective Fault Injection**
 
  - 1. Go to 'SFI' folder, configure files in 'drive_mult_smart.py' with correct benchmark name and number of threads you want to parallelize for fault injections.
  - 2. Go to 'name-sample' folder, change the folder name with your benchmark name, in the form of '*-sample', where '*' is your benchmark name.
@@ -42,4 +42,5 @@ How to run CrashFinder?
  - 5. After fault injections are all done, run 'python getLlcReport.py' to generate 'final_llc_index.txt' where all identified LLCs are listed in the file.
 
 
-	printf("Have fun with LLCs!")
+
+*printf("Have fun with LLCs!")*
