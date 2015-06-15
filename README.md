@@ -43,4 +43,4 @@ How to run CrashFinder?
 
 
 
-*printf("Have fun with LLCs!")*
+Have fun with LLCs!
