@@ -36,6 +36,7 @@ How to configure and run CrashFinder?
 **Selective Fault Injection**
 
  - Go to 'SFI' folder, configure files in 'drive_mult_smart.py' with correct benchmark name and number of threads you want to parallelize for fault injections.
+ - Put the txt file generate from last phase under the root of 'SFI' folder.
  - Go to 'name-sample' folder, change the folder name with your benchmark name, in the form of 'X-sample', where 'X' is your benchmark name.
  - Put original LLVM IR file of your benchmark under the 'name-sample' folder, configure 'faultinject.py' with your benchmark name and test input.
  - Go to the root of 'SFI' folder, run 'python drive_mult_smart.py' for the fault injection.
