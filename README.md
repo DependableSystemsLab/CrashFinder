@@ -1,5 +1,4 @@
 # CrashFinder
-# Author: Guanpeng(Justin) Li
 
 
 How to install?
