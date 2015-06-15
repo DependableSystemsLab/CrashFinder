@@ -12,7 +12,7 @@ How to install?
 
 
 
-How to run CrashFinder?
+How to configure and run CrashFinder?
 ------------------------
 
 
