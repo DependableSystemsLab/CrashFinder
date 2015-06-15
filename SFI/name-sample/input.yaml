@@ -10,13 +10,16 @@ runOption:
         numOfRuns: 1
         fi_type: bitflip
         fi_bit: 5
+        fi_cycle: YYYY
     - run:
         numOfRuns: 1
         fi_type: bitflip
         fi_bit: 60
+        fi_cycle: YYYY
     - run:
         numOfRuns: 1
         fi_type: bitflip
         fi_bit: 31
+        fi_cycle: YYYY
 
 timeOut: 1500
