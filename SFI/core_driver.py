@@ -3,6 +3,7 @@
 import os
 import sys
 import subprocess
+from random import randint
 
 # read args
 coreNo = int(sys.argv[1])
@@ -40,7 +41,14 @@ with open("driver_index_" + `coreNo`, "r") as f:
 		# modify input.yaml
 		os.chdir("./" + bmName + "_" + index + "_" + cycle + "_" + `coreNo` + "_" + `coreIndexCounter`)
 		inpf = open("input.yaml")
-		inpfContent = inpf.read().replace("XXXX", index).replace("YYYY", cycle)
+
+		# generate sampling
+		bit1 = randint(1,6)
+		bit2 = randint(27,31)
+		bit3 = randint(59,63)
+
+		inpfContent = inpf.read().replace("XXXX", index).replace("YYYY", cycle).replace("AAAA", `bit1`).replace("BBBB", `bit2`).replace("CCCC", `bit3`)
+
 		with open("input.yaml", "w") as inpf:
 			inpf.write(inpfContent)
 

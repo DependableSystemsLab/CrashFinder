@@ -9,17 +9,17 @@ runOption:
     - run:
         numOfRuns: 1
         fi_type: bitflip
-        fi_bit: 5
+        fi_bit: AAAA
         fi_cycle: YYYY
     - run:
         numOfRuns: 1
         fi_type: bitflip
-        fi_bit: 60
+        fi_bit: BBBB
         fi_cycle: YYYY
     - run:
         numOfRuns: 1
         fi_type: bitflip
-        fi_bit: 31
+        fi_bit: CCCC
         fi_cycle: YYYY
 
 timeOut: 1500
