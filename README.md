@@ -2,6 +2,14 @@ CrashFinder
 ===================
 
 
+
+What is CrashFinder?
+-----------------
+
+CrashFinder is an automatic tool that can identify program locations causing long-latency crashes(LLCs). The paper about CrashFinder can be found at http://blogs.ubc.ca/karthik/files/2015/04/gpli_DSN2015.pdf
+
+
+
 How to install?
 -----------------
 
